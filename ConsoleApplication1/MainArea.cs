@@ -14,7 +14,7 @@ namespace BPSSlackMain
             T3Slack Slack = new T3Slack();
             try
             {
-                Task.WaitAll(Slack.SendMessage("DCW21NBHD", "Gettin' there..."));   // Hier rufe ich meine Methode auf - 1.Parameter ist der Channel,
+                Task.WaitAll(Slack.SendMessage("UCW21N48P", "Test123"));   // Hier rufe ich meine Methode auf - 1.Parameter ist der Channel,
             }catch (Exception ups)                                                  //zweiter der Text der Nachricht, ein eventueller dritter ein Dateipfad
             {
                 Console.WriteLine(ups);

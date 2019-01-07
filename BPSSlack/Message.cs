@@ -23,8 +23,7 @@ namespace BPSSlack
         public static string as_user = "true";
         public static string username { get; set; }
         public static string icon_url { get; set; }
-
-
+        
         public static void CheckToken()        // Diese Funktion prüft ob ein Token zur authentifizierung vorhanden ist. Bei Erstausführung des Codes muss der Token eingefügt werden.
         {
             if (token == null || token == "")

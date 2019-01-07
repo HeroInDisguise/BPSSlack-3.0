@@ -30,8 +30,7 @@ namespace BPSSlack
 
         public class Profile
         {
-            public string email { get; set; }
-            public string display_name { get; set; }
+            public string email { get; set; }            
         }
 
         public class Channel
